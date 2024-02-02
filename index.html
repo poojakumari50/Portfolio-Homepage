@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body{
+            background-image: url("image/blackbg.jpg");
+            background-position: center;
+            background-size: cover;
+            /* background-color: black; */
+            color: white;
+            margin: 0px 75px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+        }
+        nav h1{
+            color: rgb(0, 255, 0);
+            font-size: 50px;
+        }
+        nav span{
+            color: red;
+        }
+        nav ul li{
+            display: inline-block;
+            list-style: none;
+            margin: 10px 20px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        nav ul li a:hover{
+            color: rgb(0, 255, 0);
+            transition: 0.5s;
+        }
+        article{
+            margin-top: 50px;
+        }
+        .content h1{
+            color: white;
+            font-size: 35px;
+        }
+        .content h2{
+            color: red;
+            font-size: 70px;
+        }
+        .content p{
+            color: white;
+            font-size: 20px;
+        }
+        .hireme{
+            margin-top: 50px;
+        }
+        .hireme a{
+            color: red;
+            text-decoration: none;
+            background-color: rgb(0, 255, 0);
+            font-size: 25px;
+            padding: 10px;
+            border-radius: 15px;
+            border: 2px solid red;
+            transition: 0.5s;
+        }
+        .hireme a:hover{
+            color: red;
+            background-color: transparent;
+            font-size: 27px;
+        }
+        footer p{
+            margin-bottom: 0px;
+            margin-top: 160px;
+            text-align: center;
+            font-size: 20px;
+        }
+        footer p span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <nav>
+            <h1>Portfo<span>lio.</span></h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <article>
+
+        <section class="content">
+            <h1>Hello! It's me </h1>
+            <h2>Pooja Kumari</h2>
+            <p>I'm a Frontend Developer. I can make amazing projects. <br> You can check it out on my GitHub profile.</p>
+        </section>
+
+        <section class="hireme">
+            <a href="#">Hire Me</a>
+        </section>
+
+    </article>
+
+    <footer>
+        <p>Created By <span>Pooja Kumari</span> | &copy; 2024 All right reserved. </p>
+    </footer>
+</body>
+</html>
